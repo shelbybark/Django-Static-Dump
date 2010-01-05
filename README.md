@@ -1,7 +1,9 @@
 Django Static Dump
 ==================
 
-Django Static Dump was created to meet a need I had while working on "static builds" of design comps. I needed a way to output a set of static html files after using a simple django app used to build out sample pages from design comps.
+Django Static Dump is a custom management command for django. It was created to meet a need I had while working on "static builds" of design comps. I needed a way to output a set of static html files after using a simple django app used to build out sample pages from design comps.
+
+To install, just add it to your INSTALLED_APPS.
 
 You will need to have the manage.py runserver running on your machine for the command to work. The default server it looks for is http://127.0.0.1:8000, but you can pass in your own host and port with the --host and --port parameters.
 
