@@ -1,4 +1,4 @@
-from django.core.management.base import NoArgsCommand, BaseCommand
+from django.core.management.base import BaseCommand
 from optparse import OptionParser, make_option
 
 class Command(BaseCommand):
