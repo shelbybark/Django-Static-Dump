@@ -7,7 +7,7 @@ To install, just add it to your INSTALLED_APPS.
 
 The basic command is: 
 
-    `./manage.py staticdump`
+    ./manage.py staticdump
 
 You will need to have the manage.py runserver running on your machine for the command to work. The default server it looks for is http://127.0.0.1:8000, but you can pass in your own host and port with the --host and --port parameters.
 
